@@ -9,6 +9,15 @@ package com.flycloud.util;
  */
 public class mytest {
     private int myname;
+    private int addSomething;
+
+    public int getAddSomething() {
+        return addSomething;
+    }
+
+    public void setAddSomething(int addSomething) {
+        this.addSomething = addSomething;
+    }
 
     public int getMyname() {
         return myname;
